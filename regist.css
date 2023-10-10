@@ -1,0 +1,24 @@
+/* style.css */
+/* 아이디 input 바로 옆에 붙이기 위해 너비 크기 조정 */
+#regist_wrap #regist_form input#userid {
+  width: 345px;
+}
+/* 체크 버튼 스타일 지정 */
+#regist_wrap #regist_form input#checkIdBtn {
+  position: relative;
+  top: -2px;
+  width: 50px;
+  margin-left: 0;
+  padding-left: 0;
+  border: 0;
+  box-sizing:content-box;
+  background: linear-gradient(to left, #f857a6, #ff5858);
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+/* 체크 시 표시될 영역 비표시(자바스크립트로 제어) */
+#regist_wrap #regist_form #result {
+  display: none;
+}
